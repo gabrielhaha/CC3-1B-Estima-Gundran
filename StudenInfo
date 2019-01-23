@@ -1,0 +1,29 @@
+package classesandobjects;
+
+public class StudentAccount5 {
+    
+    int id;
+    String name;
+    String course;
+    
+    public void setId(int studentIdNumber){
+        id= studentIdNumber;
+    }
+    public int getId(){
+        return id;
+    }
+    
+    
+    public void setName(String studentName){
+        name= studentName;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setCourse(String studentCourse){
+        course = studentCourse;
+    }
+    public String getCourse(){
+        return course;
+    }
+}
