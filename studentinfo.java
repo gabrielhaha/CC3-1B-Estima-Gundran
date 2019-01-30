@@ -7,7 +7,7 @@ public class studentinfo {
     String term;
     
     public studentinfo(String college, String term){
-        this.university = "U.C";
+        this.university = "University of the Cordilleras";
         this.college = college;
         this.term = term;
     }
@@ -51,6 +51,6 @@ public class studentinfo {
     }
     
     public void print(){
-        System.out.println(this.university + "\n" + this.college + "\n" + this.term + "\nStudent Information: "+ "\nID Number: "+ this.idnumber + "\nName: "+ this.familyname +","+ this.firstname + "\nAcademic Program: "+ this.academicprogram +" - " + this.track);
+        System.out.println(this.university + "\n" + this.college + "\n" + this.term + "\n " +"\nStudent Information: "+ "\nID Number: "+ this.idnumber + "\nName: "+ this.familyname +","+ this.firstname + "\nAcademic Program: "+ this.academicprogram +" - " + this.track);
     }
 }
