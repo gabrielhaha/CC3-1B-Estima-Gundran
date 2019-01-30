@@ -5,7 +5,7 @@ public class StudentAccs {
     
     
     public static void main(String[] args) {
-        studentinfo student = new studentinfo("CITCS", "2nd Term 2018-2019");
+        studentinfo student = new studentinfo("\tCITCS", "\t2nd Term 2018-2019");
         System.out.println("================================");
         student.setId("18-7189-310");
         student.setFamilyname("Estima");
